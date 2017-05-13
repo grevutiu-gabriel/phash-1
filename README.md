@@ -29,6 +29,7 @@ or
   sudo add-apt-repository ppa:gabriel1984sibiu/aplicatii3
   sudo apt update
   sudo apt install libphash1 libphash1-dev
+  git clone https://github.com/grevutiu-gabriel/phash-1.git
   cd phash-1/
   cabal install phash
   ghc --make phash
