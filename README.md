@@ -25,20 +25,15 @@ main = do
 ```
 or
 
+  ```
   sudo add-apt-repository ppa:gabriel1984sibiu/aplicatii3
-  
   sudo apt update
-  
   sudo apt install libphash1 libphash1-dev
-  
   cd phash-1/
-  
   cabal install phash
-  
   ghc --make phash
-  
   ./phash
-
+```
 # Credit
 All credit goes to the original pHash authors. For more information about pHash
 visit http://phash.org
