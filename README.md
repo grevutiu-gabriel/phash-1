@@ -24,6 +24,7 @@ main = do
   where reasonableThreshold = 15
 ```
 or
+
   sudo add-apt-repository ppa:gabriel1984sibiu/aplicatii3
   
   sudo apt update
